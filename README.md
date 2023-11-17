@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy">
-    <img src="https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy/blob/main/readme/projectIcon.png" alt="Logo" width="320" height="80">
+    <img src="https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy/img/projectIcon.png" alt="Logo" width="320" height="80">
   </a>
 
 <h3 align="center">Androider's Guide to The Galaxy</h3>
