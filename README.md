@@ -48,7 +48,7 @@
 [![ScreenShot][product-screenshot]](https://ondergrup.com)
 [![ScreenShot-2][product-screenshot2]](https://ondergrup.com)
 
-Önder Grup bünyesinde STM32 tabanlı olarak üretilen makinelerin gömülü sistem yazılımıdır.
+It is a comprehensive Android library project that allows you to use all the basic features you can use while developing your Android projects without any extra effort by simply calling functions.
 
 What the library can do:
 * TBA :smile:
@@ -93,7 +93,7 @@ You can access all the details regarding the use of the program and error codes 
 - [ ] Unit Test
 - [ ] in-App Notification (Custom Notification)
 - [ ] Push Notification (OneSignal)
-- [ X ] Permission Management
+- [X] Permission Management
 - [ ] ARCore Support
 - [ ] Vuforia Support
 - [ ] Embedded Unity AR App Support
