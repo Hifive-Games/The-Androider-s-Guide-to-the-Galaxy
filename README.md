@@ -9,7 +9,7 @@
 <h3 align="center">Androider's Guide to The Galaxy</h3>
 
   <p align="center">
-    Önder Grup gömülü sistem yazılımı projesi!
+    Fancy Android library project for Speedy Android Coders :)
     <br />
     <a href="https://www.notion.so/Teamspace-Home-0c63f5fdeb054503a2b66944317b6a6a"><strong>Explore the docs »</strong></a>
     <br />
