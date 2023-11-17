@@ -50,8 +50,8 @@
 
 Önder Grup bünyesinde STM32 tabanlı olarak üretilen makinelerin gömülü sistem yazılımıdır.
 
-Programın yapabildikleri:
-* STM32 tabanlı hidrolik makine yönetimi :smile:
+What the library can do:
+* TBA :smile:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +59,7 @@ Programın yapabildikleri:
 
 ### Built With
 
-Programın geliştirilme sürecinde kullanılan teknolojiler aşağıdaki gibidir.
+The technologies used in the development process of the program are as follows.
 
 * [![Next][Next.js]][Next-url]
 
@@ -69,7 +69,7 @@ Programın geliştirilme sürecinde kullanılan teknolojiler aşağıdaki gibidi
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Aşağıdaki dokümanı kullanarak programın kullanımına ve hata kodlarına ilişkin tüm detaylara ulaşabilirsiniz.
+You can access all the details regarding the use of the program and error codes by using the document below.
 
 [Documentation](https://www.notion.so/Teamspace-Home-0c63f5fdeb054503a2b66944317b6a6a)
 
@@ -80,18 +80,47 @@ Aşağıdaki dokümanı kullanarak programın kullanımına ve hata kodlarına i
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Register & Login
-- [ ] Password Reset
-- [ ] Show Profile
-- [ ] Profile Update
-- [ ] Theme Change
-- [ ] Manage Users
-- [ ] Manage Hydraulic Units
-- [ ] Manage Whole Machines
-- [ ] Manage Server Stats
-- [ ] Manage Tickets
-- [ ] Multi-language Support
-    - [ ] English
+- [ ] Json Serializaton / Deserialization
+- [ ] Logging and Debug
+- [ ] Asynchronous HTTP
+- [ ] File Upload & Download (Based HTTP Libs & Volley)
+- [ ] Custom Header & Parameter
+- [ ] Interseptor & Filtering
+- [ ] SSL Pinning
+- [ ] Password Management
+- [ ] RxJava Support
+- [ ] Coroutines Support
+- [ ] Unit Test
+- [ ] in-App Notification (Custom Notification)
+- [ ] Push Notification (OneSignal)
+- [ X ] Permission Management
+- [ ] ARCore Support
+- [ ] Vuforia Support
+- [ ] Embedded Unity AR App Support
+- [ ] Custom Failed & Success Popup
+- [ ] Theme Switcher
+- [ ] Language API
+- [ ] Network & Bluetooth Control (is device still connected...)
+- [ ] Lightweight PDF Reader
+- [ ] Fancy PDF Reader (Page change effect)
+- [ ] Low Data Mode
+    - [ ] Data Compress
+- [ ] Performance Mode
+  - [ ] Effect, Vibration & Notification Disabling
+- [ ] Offline Mode with Hash
+  - [ ] Read
+  - [ ] Listen
+  - [ ] Watch
+- [ ] Online Payment Support
+  - [ ] PlayStore
+  - [ ] iyzico
+  - [ ] Paypal
+  - [ ] Stripe
+  - [ ] FlutterWave
+  - [ ] Razorpay
+  - [ ] Payfast
+  - [ ] Paystack
+- [ ] minIO Support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +139,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Halil İbrahim Direktör - [@hidirektor](https://instagram.com/hidirektor) - hidirektor@gmail.com
 
-Project Link: [https://github.com/hidirektor/OnderGrup-Hydraulic-Tool](https://github.com/hidirektor/OnderGrup-Hydraulic-Tool)
+Project Link: [https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy](https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
