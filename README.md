@@ -11,7 +11,7 @@
   <p align="center">
     Fancy Android library project for Speedy Android Coders :)
     <br />
-    <a href="https://www.notion.so/Teamspace-Home-0c63f5fdeb054503a2b66944317b6a6a"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy/issues">Report Bug</a>
