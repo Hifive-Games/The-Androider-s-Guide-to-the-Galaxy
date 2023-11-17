@@ -71,7 +71,7 @@ The technologies used in the development process of the program are as follows.
 
 You can access all the details regarding the use of the program and error codes by using the document below.
 
-[Documentation](https://www.notion.so/Teamspace-Home-0c63f5fdeb054503a2b66944317b6a6a)
+[Documentation](https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy/wiki)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
