@@ -80,7 +80,7 @@ You can access all the details regarding the use of the program and error codes 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Json Serializaton / Deserialization
+- [X] Json Serializaton / Deserialization
 - [ ] Logging and Debug
 - [ ] Asynchronous HTTP
 - [ ] File Upload & Download (Based HTTP Libs & Volley)
