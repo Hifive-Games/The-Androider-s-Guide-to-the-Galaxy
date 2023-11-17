@@ -7,6 +7,8 @@ import android.content.pm.PackageManager;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 
+import me.t3sl4.essentials.Permission.Permissions;
+
 public class PermissionControl {
     private Context context;
 

@@ -10,8 +10,17 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            name "GithubPackages"
+            url uri("https://github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy")
+            credentials{
+                username = System.getenv("RELEASE_USER")
+                password = System.getenv("RELEASE_PASS")
+            }
+        }
     }
 }
 
 rootProject.name = "GalaxyGuide"
 include ':app'
+include ':essentials'

@@ -1,4 +1,4 @@
-package me.t3sl4.galaxyguide.Permission;
+package me.t3sl4.essentials.Permission;
 
 public enum Permissions {
     ACCEPT_HANDOVER,

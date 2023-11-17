@@ -1,19 +1,17 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
-    namespace 'me.t3sl4.galaxyguide'
+    namespace 'me.t3sl4.essentials'
     compileSdk 34
 
     defaultConfig {
-        applicationId "me.t3sl4.galaxyguide"
         minSdk 29
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -28,14 +26,33 @@ android {
     }
 }
 
+publishing {
+    publications {
+        bar(MavenPublication){
+            groupId "com.hidirektor"
+            artifactId "essentials"
+            version "17.11.2023"
+            artifact("$buildDir/outputs/aar/essentials-release.aar")
+        }
+    }
+
+    repositories {
+        maven {
+            name "GithubPackages"
+            url uri("https://maven.pkg.github.com/hidirektor/The-Androider-s-Guide-to-the-Galaxy")
+            credentials{
+                username = System.getenv("RELEASE_USER")
+                password = System.getenv("RELEASE_PASS")
+            }
+        }
+    }
+}
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.10.0'
-
-    implementation 'com.hidirektor:essentials:17.11.2023'
-    implementation project(path: ':essentials')
-
+    implementation 'com.google.code.gson:gson:2.8.8'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
